@@ -2668,7 +2668,94 @@ function renderAluminumFrameworkContent() {
     </div>
 
     <div class="score-section">
-      <div class="score-title">二、综合研判与操作建议</div>
+      
+    <div class="score-section">
+      <div class="score-title">二、指标权重汇总表</div>
+      <div style="overflow-x:auto;">
+      <table class="summary-table">
+        <tr><th style="width:8%">维度</th><th style="width:14%">一级指标</th><th>二级指标</th><th style="width:8%">频率</th><th style="width:7%">权重</th></tr>
+        <tr style="background:#ebf5fb;"><td class="dim-header" rowspan="9" style="color:var(--dim-basic);"><b>基本面<br>40%</b></td><td rowspan="3"><b>供给端<br>16%</b></td><td>电解铝运行产能</td><td>月度</td><td style="color:var(--dim-basic);font-weight:700;">7%</td></tr>
+        <tr style="background:#ebf5fb;"><td>云南水电开工率</td><td>周度</td><td>5%</td></tr>
+        <tr style="background:#ebf5fb;"><td>氧化铝价格</td><td>日度</td><td>4%</td></tr>
+        <tr style="background:#ebf5fb;"><td rowspan="4"><b>需求端<br>14%</b></td><td>房地产新开工面积</td><td>月度</td><td>4%</td></tr>
+        <tr style="background:#ebf5fb;"><td>新能源汽车产量</td><td>月度</td><td>5%</td></tr>
+        <tr style="background:#ebf5fb;"><td>光伏装机量</td><td>月度/季</td><td>3%</td></tr>
+        <tr style="background:#ebf5fb;"><td>铝材出口量</td><td>月度</td><td>2%</td></tr>
+        <tr style="background:#ebf5fb;"><td rowspan="2"><b>库存端<br>10%</b></td><td>铝锭社会库存</td><td>周度</td><td>6%</td></tr>
+        <tr style="background:#ebf5fb;"><td>上期所铝仓单量</td><td>日度</td><td>4%</td></tr>
+        <tr style="background:#fdedec;"><td class="dim-header" rowspan="7" style="color:var(--dim-macro);"><b>宏观面<br>20%</b></td><td rowspan="2"><b>电力成本<br>8%</b></td><td>动力煤/电力价格</td><td>日度</td><td style="color:var(--dim-macro);font-weight:700;">4%</td></tr>
+        <tr style="background:#fdedec;"><td>云南水电来水量</td><td>周度</td><td>4%</td></tr>
+        <tr style="background:#fdedec;"><td rowspan="3"><b>国际联动<br>7%</b></td><td>LME三月期铝价</td><td>日度</td><td>4%</td></tr>
+        <tr style="background:#fdedec;"><td>人民币汇率</td><td>日度</td><td>2%</td></tr>
+        <tr style="background:#fdedec;"><td>美元指数</td><td>日度</td><td>1%</td></tr>
+        <tr style="background:#fdedec;"><td rowspan="2"><b>政策端<br>5%</b></td><td>能耗双控/碳达峰</td><td>事件</td><td>3%</td></tr>
+        <tr style="background:#fdedec;"><td>铝材出口退税</td><td>事件</td><td>2%</td></tr>
+        <tr style="background:#fef9e7;"><td class="dim-header" rowspan="7" style="color:var(--dim-tech);"><b>技术面<br>15%</b></td><td rowspan="3"><b>趋势指标<br>7.5%</b></td><td>MA60均线</td><td>日度</td><td style="color:var(--dim-tech);font-weight:700;">3%</td></tr>
+        <tr style="background:#fef9e7;"><td>MACD</td><td>日度</td><td>2.5%</td></tr>
+        <tr style="background:#fef9e7;"><td>布林带</td><td>日度</td><td>2%</td></tr>
+        <tr style="background:#fef9e7;"><td rowspan="4"><b>动量+价位<br>7.5%</b></td><td>RSI(14)</td><td>日度</td><td>2%</td></tr>
+        <tr style="background:#fef9e7;"><td>KDJ</td><td>日度</td><td>—</td></tr>
+        <tr style="background:#fef9e7;"><td>前高/前低</td><td>日度</td><td>2.5%</td></tr>
+        <tr style="background:#fef9e7;"><td>整数关口</td><td>日度</td><td>1.5%</td></tr>
+        <tr style="background:#f4ecf7;"><td class="dim-header" rowspan="6" style="color:var(--dim-capital);"><b>资金面<br>15%</b></td><td rowspan="3"><b>持仓结构<br>7.5%</b></td><td>前20会员净多/净空</td><td>日度</td><td style="color:var(--dim-capital);font-weight:700;">4%</td></tr>
+        <tr style="background:#f4ecf7;"><td>主力合约持仓量</td><td>日度</td><td>2%</td></tr>
+        <tr style="background:#f4ecf7;"><td>产业vs投机持仓比</td><td>日度</td><td>1.5%</td></tr>
+        <tr style="background:#f4ecf7;"><td rowspan="2"><b>资金流向<br>4.5%</b></td><td>主力沉淀资金</td><td>日度</td><td>2.5%</td></tr>
+        <tr style="background:#f4ecf7;"><td>成交量/持仓量比</td><td>日度</td><td>2%</td></tr>
+        <tr style="background:#f4ecf7;"><td rowspan="1"><b>期限结构<br>3%</b></td><td>沪伦比价</td><td>日度</td><td>3%</td></tr>
+        <tr style="background:#e8f8f5;"><td class="dim-header" rowspan="4" style="color:var(--dim-sentiment);"><b>情绪面<br>10%</b></td><td rowspan="4"><b>产业+政策<br>10%</b></td><td>新能源车/光伏用铝预期</td><td>事件</td><td style="color:var(--dim-sentiment);font-weight:700;">3%</td></tr>
+        <tr style="background:#e8f8f5;"><td>云南限产预期</td><td>事件</td><td>3%</td></tr>
+        <tr style="background:#e8f8f5;"><td>铝厂利润</td><td>日度</td><td>2%</td></tr>
+        <tr style="background:#e8f8f5;"><td>碳达峰/能耗双控</td><td>事件</td><td>2%</td></tr>
+      </table>
+      </div>
+    </div>
+
+    <div class="score-section">
+      <div class="score-title">三、最新数据与多空研判 <span style="font-size:12px;color:var(--text-secondary);font-weight:400;">（数据截止 2026-07-30 | 来源 Wind EDB M0066356 / 上期所 / SMM）</span></div>
+      <p style="font-size:13px;color:var(--text-secondary);margin-bottom:16px;">🔴 <b>利空</b> = 下行压力 &nbsp;|&nbsp; 🟢 <b>利多</b> = 上行支撑 &nbsp;|&nbsp; ⚪ <b>中性</b> = 影响不显著</p>
+      <div style="overflow-x:auto;">
+      <table class="summary-table">
+        <tr><th>二级指标</th><th>权重</th><th>最新数据</th><th>趋势</th><th>多空</th><th>研判简述</th></tr>
+        <tr style="background:#ebf5fb;"><td style="text-align:left;">运行产能接近上限</td><td>7%</td><td><b>~4,500万吨</b></td><td>→</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">产能天花板→供给刚性</td></tr>
+        <tr style="background:#ebf5fb;"><td style="text-align:left;">新能源车产量</td><td>5%</td><td><b>持续增长</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">单车用铝200kg，增量明确</td></tr>
+        <tr style="background:#ebf5fb;"><td style="text-align:left;">社会库存去化</td><td>6%</td><td><b>约100万吨</b></td><td>↓</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">中性偏低，去库中</td></tr>
+        <tr style="background:#fef9e7;"><td style="text-align:left;">MACD金叉</td><td>2.5%</td><td><b>DIF=-13.5 DEA=-99 Bar=+171</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">DIF>DEA金叉，红柱放大</td></tr>
+        <tr style="background:#fef9e7;"><td style="text-align:left;">布林带突破</td><td>2%</td><td><b>价23,625>上轨23,531</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">强势突破上轨</td></tr>
+        <tr style="background:#fef9e7;"><td style="text-align:left;">MA60均线</td><td>3%</td><td><b>23,625 > MA60(23,465)</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">中期多头排列</td></tr>
+        <tr style="background:#fdedec;"><td style="text-align:left;">云南丰水期</td><td>5%</td><td><b>5-10月水电充裕</b></td><td>→</td><td style="color:#c0392b;font-weight:700;">🔴利空</td><td style="text-align:left;font-size:12px;">产能释放→短期供给增</td></tr>
+        <tr style="background:#e8f8f5;"><td style="text-align:left;">新能源远期需求</td><td>3%</td><td><b>光伏+新能源车持续增长</b></td><td>↑</td><td style="color:#27ae60;font-weight:700;">🟢利多</td><td style="text-align:left;font-size:12px;">中长期需求增量</td></tr>
+      </table>
+      </div>
+    </div>
+
+    <div class="score-section">
+      <div class="score-title">四、价格影响路径图</div>
+      <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:12px;">
+        <div style="background:linear-gradient(135deg,#ebf5fb,#fff);border-radius:8px;padding:14px;border-top:3px solid var(--dim-basic);"><div style="font-weight:800;color:var(--dim-basic);font-size:13px;margin-bottom:8px;">基本面 40%</div><div style="font-size:11px;color:var(--text-secondary);line-height:1.7;">产能天花板→供给刚性<br>新能源车→需求增量<br>社会库存→供需结果</div></div>
+        <div style="background:linear-gradient(135deg,#fdedec,#fff);border-radius:8px;padding:14px;border-top:3px solid var(--dim-macro);"><div style="font-weight:800;color:var(--dim-macro);font-size:13px;margin-bottom:8px;">宏观面 20%</div><div style="font-size:11px;color:var(--text-secondary);line-height:1.7;">煤价/电价→成本底部<br>云南来水量→供给弹性<br>LME联动→进口窗口</div></div>
+        <div style="background:linear-gradient(135deg,#fef9e7,#fff);border-radius:8px;padding:14px;border-top:3px solid var(--dim-tech);"><div style="font-weight:800;color:var(--dim-tech);font-size:13px;margin-bottom:8px;">技术面 15%</div><div style="font-size:11px;color:var(--text-secondary);line-height:1.7;">MA60/MACD→趋势方向<br>布林带→超买/超卖<br>关键价位→支撑/压力</div></div>
+        <div style="background:linear-gradient(135deg,#f4ecf7,#fff);border-radius:8px;padding:14px;border-top:3px solid var(--dim-capital);"><div style="font-weight:800;color:var(--dim-capital);font-size:13px;margin-bottom:8px;">资金面 15%</div><div style="font-size:11px;color:var(--text-secondary);line-height:1.7;">前20持仓→多空力量<br>沉淀资金→趋势强度<br>沪伦比→跨境套利</div></div>
+        <div style="background:linear-gradient(135deg,#e8f8f5,#fff);border-radius:8px;padding:14px;border-top:3px solid var(--dim-sentiment);"><div style="font-weight:800;color:var(--dim-sentiment);font-size:13px;margin-bottom:8px;">情绪面 10%</div><div style="font-size:11px;color:var(--text-secondary);line-height:1.7;">新能源预期→长期利多<br>云南限产→季节性扰动<br>能耗双控→政策收紧</div></div>
+      </div>
+    </div>
+
+    <div class="score-section">
+      <div class="score-title">五、品种特性与指标选取逻辑</div>
+      <ul class="char-list">
+        <li><span class="num">1</span><b>产能天花板构成绝对供给刚性：</b>中国电解铝合规产能上限4500万吨，新增产能需等量或减量置换。当前运行产能已接近上限，供给端缺乏弹性。这是决定铝价长期走势的最核心基本面。</li>
+        <li><span class="num">2</span><b>电力成本占比高，季节性扰动显著：</b>电解铝是典型的高耗能行业（吨铝耗电13,500kWh），电力成本占总成本35%+。云南水电产能约占总产能12%，枯水期(11-4月)季节性限产是重要供给变量。</li>
+        <li><span class="num">3</span><b>需求结构正向新能源转型：</b>建筑用铝占比从35%下降至28%，新能源车（单车200kg vs 燃油车140kg）+光伏支架边框用铝快速增长，消费结构优化为铝提供中长期需求增量。</li>
+        <li><span class="num">4</span><b>跨市场联动紧密：</b>上期所(SHFE)和伦敦金属交易所(LME)铝价高度联动，沪伦比价(正常区间7.0-8.5)影响进出口套利行为。LME铝是全球定价锚。</li>
+        <li><span class="num">5</span><b>社会库存是关键短期指标：</b>SMM铝锭社会库存(周度，正常60-150万吨)是反映即期供需最灵敏的指标。库存趋势变化通常领先价格1-2周。</li>
+      </ul>
+      <div style="background:#ebf5fb;border-radius:6px;padding:14px;margin-top:12px;font-size:13px;color:var(--text-secondary);line-height:1.7;">
+        <b>Wind数据可得性说明：</b>铝期货行情(M0066356日度)、LME铝价、动力煤/电力价格、氧化铝价格均可在Wind直接获取。SMM铝锭社会库存、云南水电开工率需订阅SMM/百川数据。宏观指标(房地产/新能源车产量/光伏装机量)来自国家统计局和行业协会。
+      </div>
+    </div>
+
+    <div class="score-section">
+<div class="score-title">六、综合研判与操作建议</div>
       <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:16px;">
         <div style="background:#ebf5fb;border-radius:6px;padding:12px;text-align:center;border:2px solid #3498db;"><div style="font-size:10px;">基本面 40%</div><div style="font-size:18px;font-weight:800;color:#27ae60;">偏多</div><div style="font-size:10px;">产能天花板+去库</div></div>
         <div style="background:#fdedec;border-radius:6px;padding:12px;text-align:center;border:2px solid #e74c3c;"><div style="font-size:10px;">宏观面 20%</div><div style="font-size:18px;font-weight:800;color:#27ae60;">偏多</div><div style="font-size:10px;">电力成本+LME支撑</div></div>
